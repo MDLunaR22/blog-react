@@ -59,7 +59,7 @@ export const Card = () => {
                         <div className="row text-center justify-content-center pb-4 pt-4" key={e.id}>
                             <div className="col-md-6 mb-md-0 p-md-4">
                                 <div className="conteiner">
-                                    <img src={`../../public/img/${e.img}`} className="w-75" alt="No se encuentra"></img>
+                                    <img src={`../img/${e.img}`} className="w-75" alt="No se encuentra"></img>
                                 </div>
                                 
                             </div>

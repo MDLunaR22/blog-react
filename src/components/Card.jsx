@@ -19,7 +19,7 @@ export const Card = () => {
         }],
         descripcion: 'Todos los proyectos que aparecen en el drive son proyectos o ejercicios de refuerzo que se hicieron durante mi ciclo escolar de 4to diversificado y fue muy buena experiencia ya que supe que era ser un programador o comenzar a entrar en ese ambito. A continuacion se muestra un boton donde podra acceder a un drive donde esta cierta parte de los proyectos trabajados.',
         title: '4to diversificado',
-        img: 'https://phantom-marca-mx.unidadeditorial.es/7c3b5fa1e540f78c5dfa225fce9bad07/resize/1320/f/jpg/mx/assets/multimedia/imagenes/2023/03/21/16794154249749.jpg',
+        img: 'java.jpg',
     },
     {
         id: 2,
@@ -58,7 +58,10 @@ export const Card = () => {
                     return (
                         <div className="row text-center justify-content-center pb-4 pt-4" key={e.id}>
                             <div className="col-md-6 mb-md-0 p-md-4">
-                                <img src={`${e.img}`} className="w-75" alt="No se encuentra"></img>
+                                <div>
+                                    <img src={`../../public/img/${e.img}`} className="w-75" alt="No se encuentra"></img>
+                                </div>
+                                
                             </div>
                             <div className="col-md-6 p-4 ps-md-0">
                                 <div className="card">

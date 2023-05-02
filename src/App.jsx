@@ -11,7 +11,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
-            <h1>Apoko si?</h1><hr />
+            <h1>Marvin's Blog</h1><hr />
           </div>
           <div className="col-12">
             <Content />
